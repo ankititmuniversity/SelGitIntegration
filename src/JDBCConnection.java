@@ -17,9 +17,7 @@ public class JDBCConnection {
 		while(res.next()) {
 			System.out.println(res.getString("owner"));
 			System.out.println(res.getString("SEX"));
-			System.out.println("SUCCESSFULLY DB123 CONNECTED");
 		}
-		 System.out.println("ABC");
+		System.out.println("SUCCESSFULLY DB CONNECTED");
 	}
-
 }
